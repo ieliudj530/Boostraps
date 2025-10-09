@@ -1,0 +1,84 @@
+body {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    margin-bottom: 5px;
+}
+
+ul.inline li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.linha {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.coluna {
+    padding: 0 10px;
+    float: left;
+}
+
+.col3.sidebar {
+    width: 220px;
+}
+
+.col4 {
+    width: 300px;
+}
+.col5 {
+    width: 440px;
+}
+.col7 {
+    width: 460px;
+}
+.col8 {
+    width: 620px;
+}
+
+.col9 {
+    width: 680px;
+}
+.col12 {
+    width: 940px;
+}
+
+.header {
+    background: #dee3e6;
+}
+h1.logo {
+    color: #315e8a;
+    font-weight: 300px;
+    letter-spacing: -1px;
+}
+.conteudo-extra {
+    background: #e6e6db;
+    color: #777;
+}
+
+.noticia-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.noticia-flex img {
+    width: 80px;
+    height: auto;
+
+}
+
+
+.footer {
+    background: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+
+
+}

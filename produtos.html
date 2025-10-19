@@ -3,121 +3,174 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Primeiro Projeto</title>
+    <title>Cachorrinho Feliz</title>
 	<link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		.fakeimagem{
 			height: 200px;
-			background: #aaa;
+			background: #6051ee;
 		}
+		h1{
+			font-family: 'Arial Black', Gadget, sans-serif;
+			font-size: 100px;
+		}
+	
 	</style>
   </head>
   <body>
-	<div class="bg-secondary bg-gradient text-white text-center p-5">
-	    <h1>Bootstraps Project</h1>
-			<p> html/css/Boostraps/ JS</p>
+	<div class="bg-primary bg-gradient text-white text-center p-3">
+
+ 		<h1>PetShop</h1>
+		<h2>Cachorinho Feliz</h2>
 	</div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
 		<li class="nav-item">
-		<a class="nav-link disabled" href="index.html">Home</a>
+		<a class="nav-link" href="home.html">Home</a>
 		</li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Quem Somos</a>
+          <a class="nav-link" aria-current="page" href="quem-somos.html">Quem Somos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="produtos.html">Produtos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Serviços</a>
+          <a class="nav-link" href="servicos.html">Serviços</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" aria-disabled="true">Contatos</a>
+          <a class="nav-link" href="contatos.html" aria-disabled="true">Contatos</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <div class="container mt-5">
-  <div class="row "> 
-	<div class="col-3">
-		<h2>Ferragem</h2>
-		<h5>Caixa de Ferramentas:</h5>
-		<img src="imagens/thumb-grande.jpg" class="img-fluid" alt="Computador Gamer">
-		<p> Caixa de frarramentas completa</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 2</h2>
-		<h5>Uma Foto Sobre o Produto 2:</h5>
-		<img src="imagens/thumb-grande.jpg" class="img-fluid" alt="Computador Gamer">
-		<p> A imagem acima e sobre o Produto 2.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 3</h2>
-		<h5>Uma Foto Sobre o Produto 3:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 3.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 4</h2>
-		<h5>Uma Foto Sobre o Produto 4:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 4.</p>
-	</div>
-	<div class="row "> 
-	<div class="col-3">
-		<h2>Produto 5</h2>
-		<h5>Uma Foto Sobre o Produto 5:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 5.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 6</h2>
-		<h5>Uma Foto Sobre o Produto 6:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 6.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 7</h2>
-		<h5>Uma Foto Sobre o Produto 7:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 7.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 8</h2>
-		<h5>Uma Foto Sobre o Produto 8:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 8.</p>
-	</div>
-	<div class="row "> 
-	<div class="col-3">
-		<h2>Produto 9</h2>
-		<h5>Uma Foto Sobre o Produto 9:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 9.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 10</h2>
-		<h5>Uma Foto Sobre o Produto 10:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 10.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 11</h2>
-		<h5>Uma Foto Sobre o Produto 11:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 11.</p>
-	</div>
-	<div class="col-3">
-		<h2>Produto 12</h2>
-		<h5>Uma Foto Sobre o Produto 12:</h5>
-		<div class="fakeimagem"> Fake Imagem</div>
-		<p> A imagem acima e sobre o Produto 12.</p>
-	</div>
-  </div>
+  <div class="row"> 
+	<div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Ferragem</h5>
+          <p class="card-text">Caixa de frarramentas completa.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Ferragem</h5>
+          <p class="card-text">Caixa de frarramentas completa.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+	<div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Ferragem</h5>
+          <p class="card-text">Caixa de frarramentas completa.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
+
+	<div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Ferragem</h5>
+          <p class="card-text">Caixa de frarramentas completa.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3 mb-4">
+      <div class="card h-100">
+        <img src="imagens/thumb-grande.jpg" class="card-img-top" alt="Computador Gamer">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">A imagem acima e sobre o Produto 2.</p>
+        </div>
+      </div>
+    </div>
 </div>
+
+</div>
+<div>
 	<div class="bg-dark text-center text-white mt-5 p-4">
 		<p>Eliud Desenvolvimentos &copy; 2025</p>
 		<p>(49) 991839170</p>
